@@ -108,7 +108,7 @@ def check_live_status(user_id, token):
 # Task to check Twitch live status periodically
 async def live_status_task():
     await client.wait_until_ready()
-    channel = client.get_channel(1290866295268708455)  # ใส่ ID ของช่อง Discord ที่ต้องการให้บอทแจ้งเตือน
+    channel = client.get_channel(1267797428849868811)  # ใส่ ID ของช่อง Discord ที่ต้องการให้บอทแจ้งเตือน
     token = get_twitch_token()
     user_id, icon_url = get_user_id(TWITCH_USERNAME, token)
 
