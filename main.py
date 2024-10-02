@@ -12,7 +12,7 @@ DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
 # Twitch API Credentials
 CLIENT_ID = os.getenv('CLIENT_ID')
 CLIENT_SECRET = os.getenv('CLIENT_SECRET')
-TWITCH_USERNAME = 'patricius__'
+TWITCH_USERNAME = 'Uranutsu'
 
 # URLs for Twitch API
 OAUTH_URL = 'https://id.twitch.tv/oauth2/token'
